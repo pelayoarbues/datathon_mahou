@@ -2,9 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"PreProcess": "00_core.ipynb",
+         "RecomenderStrategyFactory": "00_core.ipynb",
+         "NumericStrategy": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
 doc_url = "https://pelayoarbues.github.io/mahoudata/"
 
